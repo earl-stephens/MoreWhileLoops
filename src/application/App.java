@@ -18,6 +18,16 @@ public class App {
 			System.out.printf("Counter value is %d\n", counter);
 			--counter;
 		}
+		
+		/* Coding challenge; create a while loop that outputs
+		 * 7, 6, 5, 4, 3
+		 */
+		
+		int counter1 = 7;
+		while(counter1 >= 3) {
+			System.out.println("Counter value is: " + counter1);
+			--counter1;
+		}
 	}
 
 }
